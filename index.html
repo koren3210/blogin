@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Blogin</title>
+</head>
+
+<body>
+
+  <div class="screen" onclick="toggleMenu()"></div>
+  <div class="modal-screen" onclick="toggleModal()"></div>
+
+
+  <div class="popup-modal">
+    <div class="modal-content">
+      <h3>Duis aute irure dolor in henderit in voluptate.</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+        obcaecati ipsam quaerat quam excepturi corporis a neque suscipit
+        cumque provident
+        <br />
+        <br />
+        dolores in nemo vero, eveniet aliquam dolor molestias enim iure?
+        Provident excepturi placeat libero saepe.
+      </p>
+      <button onclick="toggleModal()">Close</button>
+    </div>
+  </div>
+
+
+  <header class="main-header">
+    <div class="header-content main-layout flex align-center space-between">
+
+      <div class="logo">Blogin<span class="logo-add">.</span></div>
+
+      <ul class="main-nav flex clean-list">
+        <li><a href="#">Journal</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+  </header>
+  <main class="main-content main-layout cards-layout">
+    <div class="card flex">
+      <img src="img/1.png" alt="" class="card-image">
+      <div class="card-content">
+        <div onclick="toggleMenu()" class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        <h2 class="card-title">Duis aute irure dolor in
+          henderit in voluptate.</h2>
+        <p class="card-text">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+          doconsequat, sunt in <br>
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur...
+        </p>
+        <button onclick="toggleModal()" class="card-btn">Continue Reading</button>
+      </div>
+    </div>
+
+    <div class="card flex">
+      <img src="img/2.png" alt="" class="card-image">
+      <div class="card-content">
+        <h2 class="card-title">Duis aute irure dolor in
+          henderit in voluptate.</h2>
+        <p class="card-text">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+          doconsequat, sunt in <br>
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur...
+        </p>
+        <button onclick="toggleModal()" class="card-btn">Continue Reading</button>
+      </div>
+    </div>
+
+    <div class="card flex">
+      <img src="img/3.png" alt="" class="card-image">
+      <div class="card-content">
+        <h2 class="card-title">Duis aute irure dolor in
+          henderit in voluptate.</h2>
+        <p class="card-text">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+          doconsequat, sunt in <br>
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur...
+        </p>
+        <button onclick="toggleModal()" class="card-btn">Continue Reading</button>
+      </div>
+    </div>
+
+
+    <div class="page-nav">
+      <a href="">
+        <span><img src="img/left-arrow.png" alt="" /></span> Previous</a>
+      <a href="">Next<span><img src="img/right-arrow.png" alt="" /></span></a>
+    </div>
+  </main>
+
+  <footer class="footer-container">
+
+    <div class="logo-footer">Blogin<span class="logo-footer-add">.</span></div>
+    <small>© 2014 Blogin.com - All Rights Reserved - Find more free Templates at
+      <span>Pixelhint.com</span></small>
+    <div class="socials">
+      <div class="social-icon"><i class="fab fa-facebook-f"></i></div>
+      <div class="social-icon"><i class="fab fa-twitter"></i></div>
+      <div class="social-icon"><i class="fab fa-behance"></i></div>
+      <div class="social-icon"><i class="fab fa-dribbble"></i></div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+<script src="main.js"></script>
+
+</html>
