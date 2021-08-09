@@ -1,7 +1,12 @@
 'use strict';
 
-function toggleMenu() {
-  document.body.classList.toggle('menu-open');
+function onActivateBtn(elBtn) {
+  console.log(elBtn)
+  elBtn.classList.toggle('active-btn')
+}
+
+function onToggleMenu() {
+  document.body.classList.toggle('opened');
 }
 
 function toggleModal() {
@@ -14,12 +19,3 @@ function toggleModal() {
   document.body.classList.toggle('modal-open');
 }
 
-function onDropDownMenu() {
-  let elDropMenu = document.querySelector('.drop-down-menu');
-
-  if (elDropMenu.style.display === 'none') {
-    elDropMenu.style.display = 'block';
-    return;
-  }
-  elDropMenu.style.display = 'none';
-}
